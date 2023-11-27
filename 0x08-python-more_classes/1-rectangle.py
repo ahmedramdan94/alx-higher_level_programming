@@ -6,17 +6,12 @@ the module had class Rectangle
 use cases :
 new_rectangle = Rectangle()
 '''
-
-
-from hight import hight
-
-
 class Rectangle:
     '''define class and his own attribute and methods'''
 
-    def __init__(self, width, height):
+    def __init__(self, width=0, height=0):
         self.width = width
-        self.height = hight
+        self.height = height
 
     @property
     def width(self):
